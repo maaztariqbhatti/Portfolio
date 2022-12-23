@@ -17,9 +17,13 @@ Other files:
 
 References:
 • https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5668684/#FD4
+
 • https://towardsdatascience.com/dynamic-time-warping-3933f25fcdd
+
 • https://medium.com/enjoy-algorithm/pre-processing-of-time-series-data-
 c50f8a3e7a98
+
 • https://towardsdatascience.com/how-to-apply-k-means-clustering-to-time-series-
 data-28d04a8f7da3
+
 • https://analyticsindiamag.com/how-to-improve-the-accuracy-of-a-classification- model
