@@ -2,14 +2,17 @@ clc
 close all
 clear all
 
-%Load data
-files = dir("digits_3d_training_data/digits_3d/training_data//*.mat");
-for i=1:length(files)
-    pos{i} = load("digits_3d_training_data/digits_3d/training_data/"+files(i).name);
-    class{i} = floor(i/101);
-end
+% %Load data
+% files = dir("digits_3d_training_data/digits_3d/training_data//*.mat");
+% for i=1:length(files)
+%     pos{i} = load("digits_3d_training_data/digits_3d/training_data/"+files(i).name);
+%     class{i} = floor(i/101);
+% end
 
-Data = [pos; class];
+%Data has been saved as matfile for convenience
+load Data.mat;
+
+% Data = [pos; class];
 
 %%Plotting
 colour = [[1 0 0];[0 1 0];[0 0 1];[0 1 1];[1 0 1];[1 1 0];[0 0.4470 0.7410];[0.8500 0.3250 0.0980];[0.8500 0.3250 0.0980];[0.9290 0.6940 0.1250]];
