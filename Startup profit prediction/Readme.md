@@ -8,3 +8,7 @@ The variable we are trying to predict is "Profit"
 
 **Startup profit predictor** is the jupyter notebook containing python code for exploratory data analysis, 
 preprocessing, modeling linear regression and concluding results through model performance evaluation.
+
+
+Reference:
+https://medium.com/@ShortHills_Tech/startup-profit-prediction-ml-app-step-by-step-guide-f9eb078b12bb
